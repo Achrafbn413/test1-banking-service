@@ -1,6 +1,11 @@
 import java.time.LocalDate;
 
+/**
+ // Represents a single account transaction.
+ //Stores the date, transaction amount and resulting balance.
+ */
 public class Transaction {
+
     private final LocalDate date;
     private final int amount;
     private final int balanceAfter;
