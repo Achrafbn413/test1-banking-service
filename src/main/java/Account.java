@@ -3,10 +3,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Account implementation for the Banking Service test.
- * Handles deposits, withdrawals and statement printing.
- */
+
 public class Account implements AccountService {
 
     // List storing all account transactions in memory
